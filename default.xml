@@ -193,6 +193,6 @@
   <project path="system/wlan/ti" name="r2DoesInc/android_system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="r2DoesInc/android_vendor_htc" remote="github" revision="master"/>
   <project path="vendor/omfgb" name="r2DoesInc/android_vendor_omfgb" remote="github" revision="master"/>
-  <project path="vendor/omgb" name="r2DoesInc/android_vendor_omgb" remote="github" revision="master"
+  <project path="vendor/omgb" name="r2DoesInc/android_vendor_omgb" remote="github" revision="master"/>
   <project path="android" name="r2DoesInc/android" remote="github" revision="master"/>
 </manifest>
