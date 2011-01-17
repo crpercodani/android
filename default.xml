@@ -128,7 +128,7 @@
   <project path="hardware/msm7k" name="r2DoesInc/android_hardware_msm7k" remote="github" revision="master"/>
   <project path="hardware/qcom/gps" name="r2DoesInc/android_hardware_qcom_gps" remote="github" revision="master"/>
   <project path="hardware/qcom/media" name="r2DoesInc/android_hardware_qcom_media" remote="github" revision="master"/>
-  <project path="hardware/ril" name="r2DoesInc/android_hardware_ril" remote="github" revision="gingerbread"/>
+  <project path="hardware/ril" name="r2DoesInc/android_hardware_ril" remote="github" revision="master"/>
   <project path="hardware/ti/omap3" name="r2DoesInc/android_hardware_ti_omap3" remote="github" revision="master"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
