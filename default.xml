@@ -150,7 +150,7 @@
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2" name="r2DoesInc/android_packages_apps_Launcher2" remote="github" revision="master"/>
   <project path="packages/apps/Mms_omgb" name="r2DoesInc/android_packages_apps_Mms_omgb" remote="github" revision="master"/>
-  <project path="packages/apps/Mms_omfgb" name="r2DoesInc/android_packages_apps_Mms_omfb" remote="github" revision="master"/>
+  <project path="packages/apps/Mms_omfgb" name="r2DoesInc/android_packages_apps_Mms_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
