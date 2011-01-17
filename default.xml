@@ -143,7 +143,7 @@
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/DeskClock" name="r2DoesInc/android_packages_apps_DeskClock" remote="github" revision="master"/>
   <project path="packages/apps/Email" name="platform/packages/apps/Email" />
-  <project path="packages/apps/FYM" name="r2DoesInc/android_packages_apps_FYM" remote="github" revision="master"/>
+  <project path="packages/apps/God_Mode" name="r2DoesInc/android_packages_apps_God_Mode" remote="github" revision="master"/>
   <project path="packages/apps/FileManager" name="r2DoesInc/android_packages_apps_FileManager" remote="github" revision="master"/>
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="r2DoesInc/android_packages_apps_Gallery3D" remote="github" revision="master"/>
