@@ -40,7 +40,7 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="r2DoesInc/android_external_clearsilver" remote="github" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
-  <project path="external/dhcpcd" name="r2DoesInc/android_external_dhcpcd" />
+  <project path="external/dhcpcd" name="r2DoesInc/android_external_dhcpcd" remote="github" revision="master" />
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="r2DoesInc/android_external_dropbear" remote="github" revision="master"/>
   <project path="external/e2fsprogs" name="r2DoesInc/android_external_e2fsprogs" remote="github" revision="master"/>
