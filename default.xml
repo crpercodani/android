@@ -161,6 +161,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings_omfgb" name="linuxmotion/android_packages_apps_Settings_omfgb" remote="github" revision="master"/>
+
   <project path="packages/apps/Settings_omgb" name="linuxmotion/android_packages_apps_Settings_omgb" remote="github" revision="master"/>
   <project path="packages/apps/SoundRecorder" name="linuxmotion/android_packages_apps_SoundRecorder" remote="github" revision="master"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
