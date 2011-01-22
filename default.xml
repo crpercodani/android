@@ -148,7 +148,8 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="r2DoesInc/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Launcher2" name="r2DoesInc/android_packages_apps_Launcher2" remote="github" revision="master"/>
+  <project path="packages/apps/Launcher2_omfgb" name="r2DoesInc/android_packages_apps_Launcher2_omfgb" remote="github" revision="master"/>
+  <project path="packages/apps/Launcher2_omgb" name="platform/packages/apps/Launcher2_omgb" />
   <project path="packages/apps/Mms_omgb" name="r2DoesInc/android_packages_apps_Mms_omgb" remote="github" revision="master"/>
   <project path="packages/apps/Mms_omfgb" name="r2DoesInc/android_packages_apps_Mms_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
