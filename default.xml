@@ -149,7 +149,7 @@
   <project path="packages/apps/Gallery3D" name="linuxmotion/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/Launcher2_omfgb" name="linuxmotion/android_packages_apps_Launcher2_omfgb" remote="github" revision="master"/>
-  <project path="packages/apps/Launcher2_omgb" name="linuxmotion/android_packages_apps_Mms_omgb" remote="github" revision="master" />
+  <project path="packages/apps/Launcher2_omgb" name="linuxmotion/android_packages_apps_Launcher2_omgb" remote="github" revision="master" />
   <project path="packages/apps/Mms_omgb" name="linuxmotion/android_packages_apps_Mms_omgb" remote="github" revision="master"/>
   <project path="packages/apps/Mms_omfgb" name="linuxmotion/android_packages_apps_Mms_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
