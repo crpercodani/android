@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> upstream/master
 <manifest>
   <remote  name="korg"
            fetch="git://android.git.kernel.org/"
@@ -41,7 +44,11 @@
   <project path="external/chromium" name="platform/external/chromium" />
   <project path="external/clearsilver" name="r2DoesInc/android_external_clearsilver" remote="github" revision="master"/>
   <project path="external/dbus" name="platform/external/dbus" />
+<<<<<<< HEAD
   <project path="external/dhcpcd" name="r2DoesInc/android_external_dhcpcd" remote="github" revision="master" />
+=======
+  <project path="external/dhcpcd" name="platform/external/dhcpcd" />
+>>>>>>> upstream/master
   <project path="external/dnsmasq" name="platform/external/dnsmasq" />
   <project path="external/dropbear" name="r2DoesInc/android_external_dropbear" remote="github" revision="master"/>
   <project path="external/e2fsprogs" name="r2DoesInc/android_external_e2fsprogs" remote="github" revision="master"/>
@@ -129,7 +136,11 @@
   <project path="hardware/msm7k" name="r2DoesInc/android_hardware_msm7k" remote="github" revision="master"/>
   <project path="hardware/qcom/gps" name="r2DoesInc/android_hardware_qcom_gps" remote="github" revision="master"/>
   <project path="hardware/qcom/media" name="r2DoesInc/android_hardware_qcom_media" remote="github" revision="master"/>
+<<<<<<< HEAD
   <project path="hardware/ril" name="r2DoesInc/android_hardware_ril" remote="github" revision="master"/>
+=======
+  <project path="hardware/ril" name="r2DoesInc/android_hardware_ril" remote="github" revision="gingerbread"/>
+>>>>>>> upstream/master
   <project path="hardware/ti/omap3" name="r2DoesInc/android_hardware_ti_omap3" remote="github" revision="master"/>
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="libcore" name="platform/libcore" />
@@ -149,20 +160,32 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="r2DoesInc/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
+<<<<<<< HEAD
   <project path="packages/apps/Launcher2_omfgb" name="r2DoesInc/android_packages_apps_Launcher2_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Launcher2_omgb" name="platform/packages/apps/Launcher2_omgb" />
   <project path="packages/apps/Mms_omgb" name="r2DoesInc/android_packages_apps_Mms_omgb" remote="github" revision="master"/>
   <project path="packages/apps/Mms_omfgb" name="r2DoesInc/android_packages_apps_Mms_omfgb" remote="github" revision="master"/>
+=======
+  <project path="packages/apps/Launcher2" name="r2DoesInc/android_packages_apps_Launcher2" remote="github" revision="master"/>
+  <project path="packages/apps/Mms" name="r2DoesInc/android_packages_apps_Mms" remote="github" revision="master"/>
+>>>>>>> upstream/master
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="r2DoesInc/android_packages_apps_Phone" remote="github" revision="master"/>
+<<<<<<< HEAD
   <project path="packages/apps/Protips_omgb" name="r2DoesInc/android_packages_apps_Protips_omgb" remote="github" revision="master"/>
   <project path="packages/apps/Protips_omfgb" name="r2DoesInc/android_packages_apps_Protips_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings_omfgb" name="r2DoesInc/android_packages_apps_Settings_omfgb" remote="github" revision="master"/>
   <project path="packages/apps/Settings_omgb" name="r2DoesInc/android_packages_apps_Settings_omgb" remote="github" revision="master"/>
+=======
+  <project path="packages/apps/Protips" name="r2DoesInc/android_packages_apps_Protips" remote="github" revision="master"/>
+  <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
+  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
+  <project path="packages/apps/Settings" name="r2DoesInc/android_packages_apps_Settings" remote="github" revision="master"/>
+>>>>>>> upstream/master
   <project path="packages/apps/SoundRecorder" name="r2DoesInc/android_packages_apps_SoundRecorder" remote="github" revision="master"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
   <project path="packages/apps/Tag" name="platform/packages/apps/Tag" />
@@ -195,6 +218,8 @@
   <project path="system/wlan/ti" name="r2DoesInc/android_system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="r2DoesInc/android_vendor_htc" remote="github" revision="master"/>
   <project path="vendor/omfgb" name="r2DoesInc/android_vendor_omfgb" remote="github" revision="master"/>
+
   <project path="vendor/omgb" name="r2DoesInc/android_vendor_omgb" remote="github" revision="master"/>
   <project path="android" name="r2DoesInc/android" remote="github" revision="master"/>
+
 </manifest>
