@@ -30,7 +30,6 @@
   <project path="external/bash" name="r2DoesInc/android_external_bash" remote="github" revision="master"/>
   <project path="external/bison" name="platform/external/bison" />
   <project path="external/blktrace" name="platform/external/blktrace" />
-  <project path="external/bluetooth" name="r2DoesInc/android_external_bluetooth_bluez" remote="github" revision="master"/>
   <project path="external/bouncycastle" name="platform/external/bouncycastle" />
   <project path="external/bsdiff" name="platform/external/bsdiff" />
   <project path="external/busybox" name="r2DoesInc/android_external_busybox" remote="github" revision="master"/>
