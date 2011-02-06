@@ -5,16 +5,6 @@ THANKS FOR THE WRITE UP :D
 
 
 
-<<<<<<< HEAD
-Guide to compiling the r2DoesInc source (Currently available for the Evo 4g (Sprint), and the Droid Incredible (Verizon).
-
-This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for r2DoesInc. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
-
-==================================================
-
-
-r2DoesInc v1.x.x - Gingerbread
-=======
 Guide to compiling the OMFGB source (Currently available for the Evo 4g (Sprint), and the Droid Incredible (Verizon).
 
 This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for r2DoesInc. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
@@ -23,7 +13,6 @@ This guide is mainly taken from the CyanogenMod Wiki, which was derives from goo
 
 
 OMFGB  v1.x.x - Gingerbread
->>>>>>> 75f9d808d0d965e98a8db955b28acb7f0e9ba863
 
 
 ==================================================
@@ -141,7 +130,7 @@ Compile!
 Completed! Your compiled r2DoesInc rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
 
 
-<<<<<<< HEAD
+
 =======
 =================================================
 =================================================
@@ -168,4 +157,3 @@ Being that this is a community built rom, some people mayb have mods that they w
 		All done! I should be able to get back to you within a day in most cases, but it may take as long as 2 or 3.
 
 
->>>>>>> 75f9d808d0d965e98a8db955b28acb7f0e9ba863
