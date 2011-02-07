@@ -152,7 +152,7 @@
   <project path="packages/apps/Launcher2" name="r2DoesInc/android_packages_apps_Launcher2" remote="github" revision="master"/>
   <project path="packages/apps/Mms" name="r2DoesInc/android_packages_apps_Mms" remote="github" revision="master"/>
 
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
+  <project path="packages/apps/Music" name="r2DoesInc/android_packages_apps_Music" remote="github" revision="master" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/PackageInstaller" name="platform/packages/apps/PackageInstaller" />
   <project path="packages/apps/Phone" name="r2DoesInc/android_packages_apps_Phone" remote="github" revision="master"/>
