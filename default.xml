@@ -26,6 +26,7 @@
   <project path="device/htc/buzz" name="r2DoesInc/android_device_htc_buzz" remote="github" revision="master"/>
   <project path="device/htc/supersonic" name="r2DoesInc/android_device_htc_supersonic" remote="github" revision="master"/>
   <project path="device/htc/desirec" name="r2DoesInc/android_device_htc_desirec" remote="github" revision="master"/>
+  <project path="device/motorola/sholes" name="r2DoesInc/android_device_motorola_sholes" remote="github" revision="master"/>
   <project path="device/sample" name="device/sample" />
   <project path="external/apache-http" name="platform/external/apache-http" />
   <project path="external/astl" name="platform/external/astl" />
@@ -194,6 +195,7 @@
   <project path="system/vold" name="r2DoesInc/android_system_vold" remote="github" revision="master"/>
   <project path="system/wlan/ti" name="r2DoesInc/android_system_wlan_ti" remote="github" revision="master"/>
   <project path="vendor/htc" name="r2DoesInc/android_vendor_htc" remote="github" revision="master"/>
+  <project path="vendor/motorola" name="r2DoesInc/android_vendor_motorola" remote="github" revision="master"/>
   <project path="vendor/omfgb" name="r2DoesInc/android_vendor_omfgb" remote="github" revision="master"/>
 
  
