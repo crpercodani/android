@@ -150,7 +150,6 @@
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
   <project path="packages/apps/Gallery3D" name="r2DoesInc/android_packages_apps_Gallery3D" remote="github" revision="master"/>
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" />
 
   <project path="packages/apps/Launcher2" name="r2DoesInc/android_packages_apps_Launcher2" remote="github" revision="master"/>
   <project path="packages/apps/Mms" name="r2DoesInc/android_packages_apps_Mms" remote="github" revision="master"/>
@@ -163,6 +162,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="r2DoesInc/android_packages_apps_Settings" remote="github" revision="master"/>
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" />
 
   <project path="packages/apps/SoundRecorder" name="r2DoesInc/android_packages_apps_SoundRecorder" remote="github" revision="master"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />

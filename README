@@ -1,0 +1,159 @@
+TOTAL EVERVOLV KHANG!
+THANKS FOR THE WRITE UP :D
+
+
+
+
+
+Guide to compiling the OMFGB source (Currently available for the Evo 4g (Sprint), and the Droid Incredible (Verizon).
+
+This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for r2DoesInc. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
+
+=================================================
+
+
+OMFGB  v1.x.x - Gingerbread
+
+
+==================================================
+
+Getting Started
+
+--------------------------------------------------
+
+Install the ADB
+
+------Install the Android SDK. 
+
+Install the Build Packages
+
+-----Install using the package manager of your choice:
+
+----------For 32-bit & 64-bit systems:
+
+---------------git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush 
+
+----------For 64-bit only systems:
+
+---------------g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-dev gcc-4.3-multilib g++-4.3-multilib 
+
+-----Note: On Ubuntu 10.10, and variants, you need to enable the parter repository to install sun-java6-jdk:
+
+----------add-apt-repository "deb http://archive.canonical.com/ lucid partner" 
+
+
+==================================================
+
+
+Create the Directories
+
+-----You will need to set up some directories in your build environment.
+
+----------To create them:
+
+---------------mkdir -p ~/bin 
+
+---------------mkdir -p ~/android/system 
+
+
+==================================================
+
+
+Install the Repository
+
+-----Enter the following to download make executable the "repo" binary:
+
+----------curl http://android.git.kernel.org/repo > ~/bin/repo 
+
+----------chmod a+x ~/bin/repo
+
+-----You may need to reboot for these changes to take effect. 
+
+
+==================================================
+
+
+Now enter the following to initialize the repository:
+
+-----cd ~/android/system/ 
+
+-----repo init -u git://github.com/r2DoesInc/android.git
+
+Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
+
+-----repo sync 
+
+
+==================================================
+
+
+All proprietary files are kept in the repo, no need to pull them from your device (unless adding devices).
+
+
+==================================================
+
+
+Configure Build 
+
+-----Now, your environment must be configured to build specifically for your device. To set up your build environment:
+
+---------- . build/envsetup.sh
+
+---------- lunch
+
+---------- Now choose the correct device, supersonic for the Evo 4g, inc for the Droid Incredible.
+
+
+==================================================
+
+
+Compile!
+
+-----Next, we will build the actual ROM. You have a few build choices, described below. 
+
+---------- First option will do a straight build. Do this if building on a single core machine.
+
+--------------- make 
+
+---------- Second option will specify the amount of jobs you want to run (replace # with number of cpu cores.)
+
+--------------- make -j#
+
+----------- Third option will create an OTA zip file that can be flashed through recovery This can be used with '-j#' (the filename's are still buggy, working on this).
+
+--------------- make otapackage
+
+
+==================================================
+
+
+Completed! Your compiled r2DoesInc rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
+
+
+
+=======
+=================================================
+=================================================
+=================================================
+
+
+Contributing to the Source
+
+
+Being that this is a community built rom, some people mayb have mods that they would like to contibute directly, and we would be happy to accept them. The process is not hard, and we will do our best to see that every pull request is seen to ASAP.
+
+	First you will need to "fork" my repo that you would like to work on. You can do this by navigating to that repo, and clicking on the fork button on the top right, just below the search bar.
+
+	After you have your fork, your ready to start your modifications.
+
+		There are two ways you can do your modifications. The easier way-in my opinion-is done right on github. After your repo is forked, it will take you to the repo page. After navigating to the file you wish to modify, you can click on the edit button, just across from the file name. It will say, "Edit this file".
+
+		You can also pull your repository, git clone git://github.com/$USERNAME/$REPONAME.git, do your modifications locally, and then push back to git. This is a bit more tricky, and you'll soon see why the other way is recommended for beginners. 
+		
+		Change directory to the top level of your repo. Then you will need to establish the commection between you and github. git remote add origin git@github.com:$USERNAME/$REPONAME.git. Now you will need to add your commits, git add /path/to/file/modified. you will need to run this for each file you changed. If your like to just add everything, you can use git add -A. Once youve added the files you need to give them a commit message. git commit -m "commit message here". Finally, you need to push your commits. git push -f origin master.
+	
+		Once you have your repo all nice and fixed up the way you would like it to be, its time to pass it along to me to me for review and acceptance. This is very easy, simply go to your repo on github, and  click on the pull-request button right next to the fork button on the top right. Add a title to your commit, and a quick message, and click the send button.
+
+		All done! I should be able to get back to you within a day in most cases, but it may take as long as 2 or 3.
+
+
