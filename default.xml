@@ -162,7 +162,7 @@
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="OMFGB/android_packages_apps_Settings" remote="github" revision="master"/>
-  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="gingerbread" />
 
   <project path="packages/apps/SoundRecorder" name="OMFGB/android_packages_apps_SoundRecorder" remote="github" revision="master"/>
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
