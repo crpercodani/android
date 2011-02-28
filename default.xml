@@ -8,7 +8,7 @@
            fetch="git://github.com/" />
 
   <default 
-	   revision="refs/tags/android-2.3.3_r1"
+	   revision="gingerbread"
 	   remote="korg" />
 
   <project path="build" name="OMFGB/android_build" remote="github" revision="master">
