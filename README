@@ -28,18 +28,13 @@ Install the Build Packages
 
 -----Install using the package manager of your choice:
 
-----------For 32-bit & 64-bit systems:
+----------For 32-bit systems:
 
----------------git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush 
+---------------sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner" ; sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush 
 
 ----------For 64-bit only systems:
 
----------------g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-dev gcc-4.3-multilib g++-4.3-multilib 
-
------Note: On Ubuntu 10.10, and variants, you need to enable the parter repository to install sun-java6-jdk:
-
-----------add-apt-repository "deb http://archive.canonical.com/ lucid partner" 
-
+---------------sudo add-apt-repository "deb http://archive.canonical.com/ lucid partner" ; sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.6-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev sun-java6-jdk pngcrush g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline5-dev gcc-4.3-multilib g++-4.3-multilib 
 
 ==================================================
 
@@ -78,7 +73,7 @@ Now enter the following to initialize the repository:
 
 -----repo init -u git://github.com/OMFGB/android.git
 
-Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
+Then to start the sync. (This is gonna take awhile 2+ GB's to download.)
 
 -----repo sync 
 
@@ -118,7 +113,7 @@ Compile!
 
 --------------- make -j#
 
------------ Third option will create an OTA zip file that can be flashed through recovery This can be used with '-j#' (the filename's are still buggy, working on this).
+----------- Third option will create an OTA zip file that can be flashed through recovery This can be used with '-j#'
 
 --------------- make otapackage
 
