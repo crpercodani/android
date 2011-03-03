@@ -1,5 +1,4 @@
-TOTAL EVERVOLV KHANG!
-THANKS FOR THE WRITE UP :D
+Thank you to the Evervolv team most of this tutorial.
 
 
 
@@ -7,7 +6,7 @@ THANKS FOR THE WRITE UP :D
 
 Guide to compiling the OMFGB source (Currently available for the Evo 4g (Sprint), and the Droid Incredible (Verizon).
 
-This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for r2DoesInc. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
+This guide is mainly taken from the CyanogenMod Wiki, which was derives from googles AOSP directions. Modified it to obviously be used for OMFGB. There any many steps not needed as there are in CM, however this is still a HUGE work in progress.
 
 =================================================
 
@@ -77,7 +76,7 @@ Now enter the following to initialize the repository:
 
 -----cd ~/android/system/ 
 
------repo init -u git://github.com/r2DoesInc/android.git
+-----repo init -u git://github.com/OMFGB/android.git
 
 Then to start the Sync. (This is gonna take awhile 2+ GB's to download.
 
@@ -127,7 +126,7 @@ Compile!
 ==================================================
 
 
-Completed! Your compiled r2DoesInc rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
+Completed! Your compiled OMFGB rom will be located in ~/android/system/out/target/product/INSERTPRODUCTHERE/ (the entire build is in /system if you did not use otapackage).
 
 
 
